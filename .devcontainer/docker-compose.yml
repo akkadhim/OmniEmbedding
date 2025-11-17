@@ -1,0 +1,14 @@
+services:
+  app:
+    container_name: omni_embedding
+    build:
+      context: ../
+      dockerfile: .devcontainer/DockerFile
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              capabilities: [gpu]
+              device_ids: ["5"]
+              # count: 1 # Assign number of GPUs or use 'all' to assign all available GPUs
