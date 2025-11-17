@@ -1,0 +1,5 @@
+tensorflow
+numpy
+scikit-learn
+git clone https://github.com/cair/tmu.git
+matplotlib
