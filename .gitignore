@@ -7,5 +7,4 @@ X.pickle
 vectorizer_X.pickle
 
 omni_embeddings.pickle
-omni_alternatives_cache.pickle
 perturbed_documents.pickle
