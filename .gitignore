@@ -3,8 +3,5 @@ mnt/
 tmu/
 __pycache__/
 
-X.pickle
-vectorizer_X.pickle
-
 omni_embeddings.pickle
 perturbed_documents.pickle
